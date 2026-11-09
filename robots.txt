@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# لو ربطت نطاقًا خاصًا لاحقًا، بدّل الرابط تحت
+Sitemap: https://i9oly7.github.io/physiogate/sitemap.xml

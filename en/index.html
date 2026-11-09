@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Physio Gate | The Physiotherapy Community in Saudi Arabia</title>
+<meta name="description" content="Physio Gate brings physiotherapy students, practitioners, academics and researchers together under one umbrella — events, workshops, clinical placements and scientific content, aligned with Saudi Vision 2030.">
+<meta name="author" content="Physio Gate">
+<meta name="theme-color" content="#070B14">
+
+<!-- If you move to a custom domain later, replace i9oly7.github.io/physiogate in all links -->
+<link rel="canonical" href="https://i9oly7.github.io/physiogate/en/">
+<link rel="alternate" hreflang="ar" href="https://i9oly7.github.io/physiogate/">
+<link rel="alternate" hreflang="en" href="https://i9oly7.github.io/physiogate/en/">
+<link rel="alternate" hreflang="x-default" href="https://i9oly7.github.io/physiogate/">
+
+<meta property="og:site_name" content="Physio Gate">
+<meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="ar_SA">
+<meta property="og:title" content="Physio Gate | The Physiotherapy Community">
+<meta property="og:description" content="Where scientific and professional experience meet, and knowledge turns into connections, opportunities and real impact.">
+<meta property="og:image" content="https://i9oly7.github.io/physiogate/assets/og-cover.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://i9oly7.github.io/physiogate/en/">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Physio Gate | The Physiotherapy Community">
+<meta name="twitter:description" content="A community built on knowledge, experience and impact in physiotherapy.">
+<meta name="twitter:image" content="https://i9oly7.github.io/physiogate/assets/og-cover.png">
+
+<link rel="icon" type="image/webp" href="../assets/logo.webp">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/styles.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Physio Gate",
+  "url": "https://i9oly7.github.io/physiogate/en/",
+  "logo": "https://i9oly7.github.io/physiogate/assets/logo.webp",
+  "description": "A community bringing physiotherapy students, practitioners, academics and researchers together under one umbrella to empower knowledge and professional development.",
+  "areaServed": { "@type": "Country", "name": "Saudi Arabia" },
+  "knowsLanguage": ["ar", "en"],
+  "sameAs": [
+    "https://www.instagram.com/physiogatesa/",
+    "https://x.com/PhysioGatesa",
+    "https://www.tiktok.com/@physiogatesa"
+  ]
+}
+</script>
+</head>
+<body>
+
+<!-- ============ Member icons (SVG sprite) ============ -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="av-m" viewBox="0 0 24 24">
+    <path d="M12 2.2c-3 0-5.2 2-5.2 5 0 .6.1 1.3.2 1.9l1.8-.5c-.1-.5-.1-1-.1-1.4 0-1.8 1.3-3 3.3-3s3.3 1.2 3.3 3c0 .4 0 .9-.1 1.4l1.8.5c.1-.6.2-1.3.2-1.9 0-3-2.2-5-5.2-5z"/>
+    <circle cx="12" cy="9.6" r="3.7"/>
+    <path d="M12 14.6c-4.2 0-7.5 2.6-7.5 6.7h15c0-4.1-3.3-6.7-7.5-6.7z"/>
+  </symbol>
+  <symbol id="av-f" viewBox="0 0 24 24">
+    <path d="M12 2c-3.9 0-6.6 2.6-6.6 6.4 0 1.3.3 3 .8 4.4l1.9-.7c-.4-1.2-.7-2.5-.7-3.7 0-2.6 1.9-4.4 4.6-4.4s4.6 1.8 4.6 4.4c0 1.2-.2 2.5-.7 3.7l1.9.7c.5-1.4.8-3.1.8-4.4C18.6 4.6 15.9 2 12 2z"/>
+    <circle cx="12" cy="9.8" r="3.6"/>
+    <path d="M12 14.8c-4.2 0-7.5 2.6-7.5 6.5h15c0-3.9-3.3-6.5-7.5-6.5z"/>
+  </symbol>
+</svg>
+
+<!-- ============ Preloader ============ -->
+<div class="preloader" id="preloader">
+  <div class="preloader__inner">
+    <span class="logo logo--pre" role="img" aria-label="Physio Gate"></span>
+    <span class="preloader__word">PHYSIO GATE</span>
+    <div class="preloader__bar"><span></span></div>
+  </div>
+</div>
+
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<!-- ============ Header ============ -->
+<header class="nav" id="nav">
+  <div class="nav__wrap">
+    <a href="#top" class="nav__brand">
+      <span class="logo logo--nav" role="img" aria-label="Physio Gate"></span>
+      <span>Physio<strong>Gate</strong></span>
+    </a>
+
+    <nav class="nav__links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#vision">Vision</a>
+      <a href="#founders">Founders</a>
+      <a href="#community">Community</a>
+      <a href="#opportunities">Opportunities</a>
+      <a href="#members">Members</a>
+      <a href="#events">Events</a>
+      <a href="#knowledge">Knowledge</a>
+      <a href="#partners">Partners</a>
+      <a href="join.html" class="nav__cta">Join Us</a>
+      <a href="../index.html" class="nav__lang" hreflang="ar">العربية</a>
+    </nav>
+
+    <button class="nav__burger" id="navBurger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- ============ Hero ============ -->
+<section class="hero">
+  <div class="hero__glow hero__glow--a"></div>
+  <div class="hero__glow hero__glow--b"></div>
+  <div class="hero__grid-lines"></div>
+
+  <div class="container hero__content">
+    <span class="eyebrow reveal">The Physiotherapy Community</span>
+    <h1 class="hero__title reveal" data-delay="1">
+      <span class="line">More than a community.</span>
+      <span class="line grad">Where knowledge meets experience.</span>
+    </h1>
+    <p class="hero__sub reveal" data-delay="2">
+      A space where scientific and professional experience come together, and knowledge
+      turns into connections, opportunities and real impact across physiotherapy.
+    </p>
+    <div class="hero__actions reveal" data-delay="3">
+      <a href="join.html" class="btn btn--primary">Join Physio Gate</a>
+      <a href="#opportunities" class="btn btn--ghost">Explore Opportunities</a>
+    </div>
+
+    <div class="hero__stats reveal" data-delay="4">
+      <div class="stat"><b data-count="41">0</b><span>Community members</span></div>
+      <div class="stat"><b data-count="4">0</b><span>Specialised committees</span></div>
+      <div class="stat"><b data-count="2030">0</b><span>Aligned with Vision</span></div>
+    </div>
+  </div>
+
+  <a href="#about" class="hero__scroll" aria-label="Scroll down"><span></span></a>
+</section>
+
+<!-- ============ 01 About ============ -->
+<section class="section" id="about">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="sec-num">01 / About</span>
+      <h2 class="sec-title">More than a community.<br><span class="grad">Where knowledge meets experience.</span></h2>
+      <p class="sec-text">
+        A space where scientific and professional experience come together, and knowledge
+        turns into connections, opportunities and real impact across physiotherapy.
+      </p>
+    </div>
+
+    <div class="about-cards">
+      <article class="acard reveal" data-delay="1">
+        <div class="acard__icon">◆</div>
+        <h3>Shared knowledge</h3>
+        <p>Trusted scientific and professional content, created by members for everyone.</p>
+      </article>
+      <article class="acard reveal" data-delay="2">
+        <div class="acard__icon">◇</div>
+        <h3>Real connections</h3>
+        <p>A network linking students with practitioners, and researchers with academics.</p>
+      </article>
+      <article class="acard reveal" data-delay="3">
+        <div class="acard__icon">◈</div>
+        <h3>Tangible impact</h3>
+        <p>Opportunities, events and placements that directly raise the quality of practice.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 02 Vision + 03 Mission ============ -->
+<section class="section section--alt" id="vision">
+  <div class="container">
+    <div class="vm">
+      <article class="vm__card reveal">
+        <span class="sec-num">02 / Vision</span>
+        <h3 class="vm__title">Vision</h3>
+        <p>
+          To be the leading community that unites every group within physiotherapy under
+          one umbrella — empowering knowledge, enabling professional development, and
+          contributing to a higher quality of physiotherapy services.
+        </p>
+      </article>
+
+      <article class="vm__card vm__card--accent reveal" data-delay="2">
+        <span class="sec-num">03 / Mission</span>
+        <h3 class="vm__title">Mission</h3>
+        <p>
+          To build a physiotherapy community that strengthens effective communication and
+          the exchange of knowledge and experience among its members — supporting
+          professional growth, broadening scientific horizons, developing skills, and
+          sustainably raising the quality of practice in the field.
+        </p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 04 Founders ============ -->
+<section class="section" id="founders">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="sec-num">04 / Founders</span>
+      <h2 class="sec-title">Meet the founders of <span class="grad">Physio Gate</span></h2>
+      <p class="sec-text">The people leading a community built on knowledge, experience and impact.</p>
+    </div>
+
+    <div class="founders">
+      <article class="founder reveal" data-delay="1">
+        <div class="founder__media">
+          <img src="../assets/founders/khaled-yaseen.webp" alt="Dr. Khaled Yaseen" loading="lazy">
+          <div class="founder__overlay">
+            <a href="https://www.linkedin.com/in/dr-khalid-yaseen-ab838a3a4/" target="_blank" rel="noopener" class="founder__li" aria-label="LinkedIn — Dr. Khaled Yaseen">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-.95 1.83-1.95 3.77-1.95 4.03 0 4.78 2.5 4.78 5.76V21h-4v-5.5c0-1.31-.02-3-1.9-3-1.9 0-2.2 1.43-2.2 2.9V21H9z"/></svg>
+            </a>
+          </div>
+        </div>
+        <h3 class="founder__name">Dr. Khaled Yaseen</h3>
+        <span class="founder__role">Executive Director</span>
+      </article>
+
+      <article class="founder reveal" data-delay="2">
+        <div class="founder__media">
+          <img src="../assets/founders/aseel-mohammed.webp" alt="Aseel Mohammed" loading="lazy">
+          <div class="founder__overlay">
+            <a href="https://www.linkedin.com/in/aseel-mohammed-5716b0393/" target="_blank" rel="noopener" class="founder__li" aria-label="LinkedIn — Aseel Mohammed">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-.95 1.83-1.95 3.77-1.95 4.03 0 4.78 2.5 4.78 5.76V21h-4v-5.5c0-1.31-.02-3-1.9-3-1.9 0-2.2 1.43-2.2 2.9V21H9z"/></svg>
+            </a>
+          </div>
+        </div>
+        <h3 class="founder__name">Aseel Mohammed</h3>
+        <span class="founder__role">Founder &amp; President</span>
+      </article>
+
+      <article class="founder reveal" data-delay="3">
+        <div class="founder__media">
+          <img src="../assets/founders/rafal-karsoum.webp" alt="Rafal Karsoum" loading="lazy">
+          <div class="founder__overlay">
+            <a href="https://www.linkedin.com/in/refal-karsoum-50687a419/" target="_blank" rel="noopener" class="founder__li" aria-label="LinkedIn — Rafal Karsoum">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-.95 1.83-1.95 3.77-1.95 4.03 0 4.78 2.5 4.78 5.76V21h-4v-5.5c0-1.31-.02-3-1.9-3-1.9 0-2.2 1.43-2.2 2.9V21H9z"/></svg>
+            </a>
+          </div>
+        </div>
+        <h3 class="founder__name">Rafal Karsoum</h3>
+        <span class="founder__role">Vice President</span>
+      </article>
+
+      <article class="founder reveal" data-delay="4">
+        <div class="founder__media">
+          <img src="../assets/founders/abdullah-alghamdi.webp" alt="Abdullah Alghamdi" loading="lazy">
+          <div class="founder__overlay">
+            <a href="https://www.linkedin.com/in/abdullah-alghamdi-80669140b/" target="_blank" rel="noopener" class="founder__li" aria-label="LinkedIn — Abdullah Alghamdi">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-.95 1.83-1.95 3.77-1.95 4.03 0 4.78 2.5 4.78 5.76V21h-4v-5.5c0-1.31-.02-3-1.9-3-1.9 0-2.2 1.43-2.2 2.9V21H9z"/></svg>
+            </a>
+          </div>
+        </div>
+        <h3 class="founder__name">Abdullah Alghamdi</h3>
+        <span class="founder__role">Chief Operating Officer</span>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 05 Community ============ -->
+<section class="section section--alt" id="community">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="sec-num">05 / Community</span>
+      <h2 class="sec-title">One community. <span class="grad">Many paths.</span></h2>
+    </div>
+
+    <div class="tracks">
+      <article class="track reveal" data-delay="1">
+        <span class="track__num">01 / Students</span>
+        <h3>Physiotherapy students</h3>
+      </article>
+      <article class="track reveal" data-delay="2">
+        <span class="track__num">02 / Practitioners</span>
+        <h3>Physiotherapists</h3>
+      </article>
+      <article class="track reveal" data-delay="3">
+        <span class="track__num">03 / Academics</span>
+        <h3>Faculty members</h3>
+      </article>
+      <article class="track reveal" data-delay="4">
+        <span class="track__num">04 / Researchers</span>
+        <h3>Researchers</h3>
+      </article>
+      <article class="track reveal" data-delay="5">
+        <span class="track__num">05 / Healthcare</span>
+        <h3>Practitioners interested in rehabilitation</h3>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 06 Why ============ -->
+<section class="section section--why" id="why">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="sec-num">06 / Why Physio Gate</span>
+      <h2 class="sec-title">Because community <span class="grad">makes the difference.</span></h2>
+    </div>
+
+    <ul class="why-list">
+      <li class="reveal" data-delay="1"><span>01</span> We connect</li>
+      <li class="reveal" data-delay="2"><span>02</span> We learn</li>
+      <li class="reveal" data-delay="3"><span>03</span> We grow</li>
+      <li class="reveal" data-delay="4"><span>04</span> We share</li>
+      <li class="reveal" data-delay="5"><span>05</span> We make an impact</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ 07 Opportunities ============ -->
+<section class="section" id="opportunities">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="sec-num">07 / Opportunities</span>
+      <h2 class="sec-title">Opportunities that <span class="grad">build experience.</span></h2>
+    </div>
+
+    <div class="opps">
+      <article class="opp reveal" data-delay="1">
+        <span class="opp__tag">01 / Connect</span>
+        <h3>Events</h3>
+        <p>Gatherings that bring the community together and open doors to new contacts.</p>
+      </article>
+      <article class="opp reveal" data-delay="2">
+        <span class="opp__tag">02 / Contribute</span>
+        <h3>Volunteering</h3>
+        <p>Initiatives that leave a mark on the community and build real experience.</p>
+      </article>
+      <article class="opp reveal" data-delay="3">
+        <span class="opp__tag">03 / Learn</span>
+        <h3>Training workshops</h3>
+        <p>Hands-on workshops led by specialists to sharpen clinical skills.</p>
+      </article>
+      <article class="opp reveal" data-delay="4">
+        <span class="opp__tag">04 / Apply</span>
+        <h3>Clinical placements</h3>
+        <p>Real experience inside the workplace, under professional supervision.</p>
+      </article>
+      <article class="opp reveal" data-delay="5">
+        <span class="opp__tag">05 / Explore</span>
+        <h3>Field visits</h3>
+        <p>Visits to healthcare facilities to see practice up close.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 08 Members ============ -->
+<section class="section section--alt" id="members">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="sec-num">08 / Members</span>
+      <h2 class="sec-title">The team behind <span class="grad">Physio Gate</span></h2>
+      <p class="sec-text">Forty-one members across four specialised committees, each with its own role in building impact.</p>
+    </div>
+
+    <div class="tabs reveal" id="memberTabs">
+      <button class="tab is-active" data-tab="content">Scientific Content <i>15</i></button>
+      <button class="tab" data-tab="media">Media <i>12</i></button>
+      <button class="tab" data-tab="pr">Public Relations <i>9</i></button>
+      <button class="tab" data-tab="ops">Operations <i>5</i></button>
+    </div>
+
+    <!-- Scientific Content (15) -->
+    <div class="members is-active" data-panel="content">
+      <article class="member member--lead">
+        <span class="member__avatar"><svg><use href="#av-f"></use></svg></span>
+        <div class="member__info">
+          <span class="member__badge">Committee Lead</span>
+          <h3 class="member__name">Mada Saad AlQarni</h3>
+          <span class="member__role">Scientific Content</span>
+        </div>
+      </article>
+      <article class="member"><span class="member__avatar"><svg><use href="#av-f"></use></svg></span><h3 class="member__name">Orjwan Khalid Bingursain</h3><span class="member__role">Member</span></article>
+      <article class="member"><span class="member__avatar"><svg><use href="#av-f"></use></svg></span><h3 class="member__name">Orjuwan Naif Almalki</h3><span class="member__role">Member</span></article>
+      <article class="member"><span class="member__avatar"><svg><use href="#av-m"></use></svg></span><h3 class="member__name">Abdulaziz Khalid Mustafa</h3><span class="member__role">Member</span></article>
+      <article class="member"><span class="member__avatar"><svg><use href="#av-f"></use></svg></span><h3 class="member__name">Reemas Ali Baljahar</h3><span class="member__role">Member</span></article>
+      <article class="member"><span class="member__avatar"><svg><use href="#av-m"></use></svg></span><h3 class="member__name">Abdulrahman Muslih Almalki</h3><span class="member__role">Member</span></article>
+      <article class="member"><span class="member__avatar"><svg><use href="#av-f"></use></svg></span><h3 class="member__name">Shouq Siraj Alzahrani</h3><span class="member__role">Member</span></article>
+      <article class="member"><span class="member__avatar"><svg><use href="#av-f"></use></svg></span><h3 class="member__name">Sereen Abdulmajeed Jawi</h3><span class="member__role">Member</span></article>
+      <article class="member"><span class="member__avatar"><svg><use href="#av-m"></use></svg></span><h3 class="member__name">Faisal Nasser AlHarbi</h3><span class="member__role">Member</span></article>
+      <article class="member"><span class="member__avatar"><svg><use href="#av-f"></use></svg></span><h3 class="member__name">Raghad Talal Alreefi</h3><span class="member__role">Member</span></article>
+      <article class="member"><span class="member__avatar"><svg><use href="#av-m"></use></svg></span><h3 class="member__name">Osama Zain Al Attas</h3><span class="member__role">Member</span></article>
+      <article class="member"><span class="member__avatar"><svg><use href="#av-m"></use></svg></span><h3 class="member__name">Ammar Hamza Alhebshi</h3><span class="member__role">Member</span></article>
+      <article class="member"><span class="member__avatar"><svg><use href="#av-m"></use></svg></span><h3 class="member__name">Hussain Saleh Alali</h3><span class="member__role">Member</span></article>
+      <article class="member"><span class="member__avatar"><svg><use href="#av-f"></use></svg></span><h3 class="member__name">Raghad Mohammed Alharbi</h3><span class="member__role">Member</span></article>
+      <article class="member"><span class="member__avatar"><svg><use href="#av-f"></use></svg></span><h3 class="member__name">Raghad Helal Almotairi</h3><span class="member__role">Member</span></article>
+    </div>
+
+    <!-- Media (12) -->
+    <div class="members" data-panel="media">
+      <article class="member member--lead">
+        <span class="member__avatar"><svg><use href="#av-f"></use></svg></span>
+        <div class="member__info">
+          <span class="member__badge">Committee Lead</span>
+          <h3 class="member__name">Rafal Karsoum</h3>
+          <span class="member__role">Media</span>
+        </div>
+      </article>
+      <article class="member"><span class="member__avatar"><svg><use href="#av-f"></use></svg></span><h3 class="member__name">Nada Saeed Alzahrani</h3><span class="member__role">Member</span></article>
+      <article class="member"><span class="member__avatar"><svg><use href="#av-f"></use></svg></span><h3 class="member__name">Reem Hamed Abu Asidah</h3><span class="member__role">Member</span></article>
+      <article class="member"><span class="member__avatar"><svg><use href="#av-f"></use></svg></span><h3 class="member__name">Fajr Abdullah Alasmari</h3><span class="member__role">Member</span></article>
+      <article class="member"><span class="member__avatar"><svg><use href="#av-f"></use></svg></span><h3 class="member__name">Noorhan Khanum Mohammed Mazen Bierouti</h3><span class="member__role">Member</span></article>
+      <article class="member"><span class="member__avatar"><svg><use href="#av-m"></use></svg></span><h3 class="member__name">Ahmed Yaseen Alsulaimani</h3><span class="member__role">Member</span></article>
+      <article class="member"><span class="member__avatar"><svg><use href="#av-f"></use></svg></span><h3 class="member__name">Rania Torki Alotaibi</h3><span class="member__role">Member</span></article>
+      <article class="member"><span class="member__avatar"><svg><use href="#av-f"></use></svg></span><h3 class="member__name">Sadeem Shaman Alotaibi</h3><span class="member__role">Member</span></article>
+      <article class="member"><span class="member__avatar"><svg><use href="#av-f"></use></svg></span><h3 class="member__name">Razan Osamah Alhattami</h3><span class="member__role">Member</span></article>
+      <article class="member"><span class="member__avatar"><svg><use href="#av-f"></use></svg></span><h3 class="member__name">Farah Ahmed Al-Towirgi</h3><span class="member__role">Member</span></article>
+      <article class="member"><span class="member__avatar"><svg><use href="#av-f"></use></svg></span><h3 class="member__name">Mayar Marwan Bugis</h3><span class="member__role">Member</span></article>
+      <article class="member"><span class="member__avatar"><svg><use href="#av-m"></use></svg></span><h3 class="member__name">Fahad Abdullah Almutairi</h3><span class="member__role">Member</span></article>
+    </div>
+
+    <!-- Public Relations (9) -->
+    <div class="members" data-panel="pr">
+      <article class="member member--lead">
+        <span class="member__avatar"><svg><use href="#av-m"></use></svg></span>
+        <div class="member__info">
+          <span class="member__badge">Committee Lead</span>
+          <h3 class="member__name">Ameen Hatem Abdulrahman</h3>
+          <span class="member__role">Public Relations</span>
+        </div>
+      </article>
+      <article class="member"><span class="member__avatar"><svg><use href="#av-f"></use></svg></span><h3 class="member__name">Raghad Bassam Felemban</h3><span class="member__role">Member</span></article>
+      <article class="member"><span class="member__avatar"><svg><use href="#av-m"></use></svg></span><h3 class="member__name">Majed Yasser Aljohani</h3><span class="member__role">Member</span></article>
+      <article class="member"><span class="member__avatar"><svg><use href="#av-m"></use></svg></span><h3 class="member__name">Abdullah Ahmad Tanin</h3><span class="member__role">Member</span></article>
+      <article class="member"><span class="member__avatar"><svg><use href="#av-m"></use></svg></span><h3 class="member__name">Khairy Abuobida Alagha</h3><span class="member__role">Member</span></article>
+      <article class="member"><span class="member__avatar"><svg><use href="#av-f"></use></svg></span><h3 class="member__name">Aljoury Sami Alharbi</h3><span class="member__role">Member</span></article>
+      <article class="member"><span class="member__avatar"><svg><use href="#av-m"></use></svg></span><h3 class="member__name">Faris Tariq Zafar</h3><span class="member__role">Member</span></article>
+      <article class="member"><span class="member__avatar"><svg><use href="#av-f"></use></svg></span><h3 class="member__name">Shaima Abdulrahman Alharbi</h3><span class="member__role">Member</span></article>
+      <article class="member"><span class="member__avatar"><svg><use href="#av-f"></use></svg></span><h3 class="member__name">Layan Rami Barassin</h3><span class="member__role">Member</span></article>
+    </div>
+
+    <!-- Operations (5) -->
+    <div class="members" data-panel="ops">
+      <article class="member member--lead">
+        <span class="member__avatar"><svg><use href="#av-m"></use></svg></span>
+        <div class="member__info">
+          <span class="member__badge">Committee Lead</span>
+          <h3 class="member__name">Mazyad Tariq Alkhattaf</h3>
+          <span class="member__role">Operations</span>
+        </div>
+      </article>
+      <article class="member"><span class="member__avatar"><svg><use href="#av-f"></use></svg></span><h3 class="member__name">Shaden Mohammed Maimani</h3><span class="member__role">Member</span></article>
+      <article class="member"><span class="member__avatar"><svg><use href="#av-m"></use></svg></span><h3 class="member__name">Ahmed Ibraheem Akhder</h3><span class="member__role">Member</span></article>
+      <article class="member"><span class="member__avatar"><svg><use href="#av-f"></use></svg></span><h3 class="member__name">Jenah Amr Mohamed Aly</h3><span class="member__role">Member</span></article>
+      <article class="member"><span class="member__avatar"><svg><use href="#av-f"></use></svg></span><h3 class="member__name">Farah Ahmed Alyoubi</h3><span class="member__role">Member</span></article>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============ 09 Events ============ -->
+<section class="section" id="events">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="sec-num">09 / Events</span>
+      <h2 class="sec-title">What happens in <span class="grad">our community.</span></h2>
+    </div>
+
+    <h3 class="sub-head reveal">Past events</h3>
+
+    <article class="event reveal">
+      <div class="event__top">
+        <span class="chip">Past event</span>
+        <div>
+          <h4 class="event__title">PT in World Cup</h4>
+          <span class="event__meta">25 July · A promising start</span>
+        </div>
+      </div>
+      <p class="event__desc">An event exploring the role of physiotherapy at the World Cup.</p>
+
+      <div class="gallery">
+        <div class="gallery__track">
+          <img src="../assets/events/world-cup/1.jpg" alt="PT in World Cup event photograph 1" loading="lazy">
+          <img src="../assets/events/world-cup/2.jpg" alt="PT in World Cup event photograph 2" loading="lazy">
+          <img src="../assets/events/world-cup/3.jpg" alt="PT in World Cup event photograph 3" loading="lazy">
+          <img src="../assets/events/world-cup/4.jpg" alt="PT in World Cup event photograph 4" loading="lazy">
+        </div>
+      </div>
+      <span class="gallery__hint">Drag or scroll to browse the event photos</span>
+    </article>
+
+    <h3 class="sub-head reveal">Next event</h3>
+
+    <!-- Keep data-date in sync with the Arabic page -->
+    <div class="countdown reveal"
+         id="countdown"
+         data-date="2026-11-17T17:00"
+         data-title="ACL Course — Anterior Cruciate Ligament"
+         data-place="Venue announced soon"
+         data-locale="en">
+
+      <div class="countdown__glow"></div>
+
+      <div class="countdown__head">
+        <span class="chip chip--live">Coming soon</span>
+        <h4 class="countdown__title" data-cd-title>—</h4>
+        <span class="countdown__place" data-cd-place></span>
+      </div>
+
+      <div class="countdown__clock" data-cd-clock>
+        <div class="cd-unit"><b data-cd="days">00</b><span>Days</span></div>
+        <div class="cd-sep">:</div>
+        <div class="cd-unit"><b data-cd="hours">00</b><span>Hours</span></div>
+        <div class="cd-sep">:</div>
+        <div class="cd-unit"><b data-cd="minutes">00</b><span>Minutes</span></div>
+        <div class="cd-sep">:</div>
+        <div class="cd-unit"><b data-cd="seconds">00</b><span>Seconds</span></div>
+      </div>
+
+      <p class="countdown__msg" data-cd-msg hidden></p>
+
+      <a href="join.html" class="btn btn--primary countdown__btn">Reserve your place</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 10 Knowledge ============ -->
+<section class="section section--alt" id="knowledge">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="sec-num">10 / Knowledge Hub</span>
+      <h2 class="sec-title">Knowledge that <span class="grad">turns into impact.</span></h2>
+    </div>
+
+    <div class="k-marquee reveal">
+      <div class="k-marquee__track">
+        <span>ARTICLES</span><span>RESEARCH</span><span>EDUCATION</span>
+        <span>PROFESSIONAL DEVELOPMENT</span><span>CLINICAL KNOWLEDGE</span>
+        <span>ARTICLES</span><span>RESEARCH</span><span>EDUCATION</span>
+        <span>PROFESSIONAL DEVELOPMENT</span><span>CLINICAL KNOWLEDGE</span>
+      </div>
+    </div>
+
+    <div class="soon reveal" data-delay="2">
+      <h3>Knowledge starts here.</h3>
+      <p>Articles, research and educational content from the physiotherapy community — coming soon.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 11 Partners ============ -->
+<section class="section" id="partners">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="sec-num">11 / Partners</span>
+      <h2 class="sec-title">Partners in <span class="grad">success.</span></h2>
+      <p class="sec-text">Organisations we are proud to work with in service of the physiotherapy community.</p>
+    </div>
+  </div>
+
+  <div class="logos">
+    <div class="logos__track">
+      <div class="logos__group">
+        <div class="logos__item"><img src="../assets/partners/spta.png" alt="Saudi Physical Therapy Association"></div>
+        <div class="logos__item"><img src="../assets/partners/p-center.png" alt="P. Center"></div>
+        <div class="logos__item"><img src="../assets/partners/promising-start.png" alt="Promising Start"></div>
+        <div class="logos__item"><img src="../assets/partners/spta.png" alt=""></div>
+        <div class="logos__item"><img src="../assets/partners/p-center.png" alt=""></div>
+        <div class="logos__item"><img src="../assets/partners/promising-start.png" alt=""></div>
+      </div>
+      <div class="logos__group" aria-hidden="true">
+        <div class="logos__item"><img src="../assets/partners/spta.png" alt=""></div>
+        <div class="logos__item"><img src="../assets/partners/p-center.png" alt=""></div>
+        <div class="logos__item"><img src="../assets/partners/promising-start.png" alt=""></div>
+        <div class="logos__item"><img src="../assets/partners/spta.png" alt=""></div>
+        <div class="logos__item"><img src="../assets/partners/p-center.png" alt=""></div>
+        <div class="logos__item"><img src="../assets/partners/promising-start.png" alt=""></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 12 Impact ============ -->
+<section class="section section--impact" id="impact">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="sec-num">12 / Our impact on Saudi healthcare</span>
+      <h2 class="sec-title">Towards a better future for <span class="grad">physiotherapy.</span></h2>
+      <p class="sec-text">
+        Contributing to the development of the healthcare sector and to a higher quality
+        of life, in line with the goals of Saudi Vision 2030.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 13 Join ============ -->
+<section class="section cta" id="join">
+  <div class="container cta__inner reveal">
+    <span class="sec-num">13 / Your place in the community</span>
+    <h2 class="cta__title">Your place is here.</h2>
+    <p>Be part of the physiotherapy community.</p>
+    <div class="hero__actions">
+      <a href="join.html" class="btn btn--primary">Join Physio Gate</a>
+      <a href="#opportunities" class="btn btn--ghost">Explore Opportunities</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ Footer ============ -->
+<footer class="footer">
+  <div class="container footer__wrap">
+    <div class="footer__brand">
+      <span class="logo logo--foot" role="img" aria-label="Physio Gate"></span>
+      <p>A community built on knowledge, experience and impact in physiotherapy.</p>
+    </div>
+
+    <nav class="footer__nav">
+      <h4>Links</h4>
+      <a href="#about">About</a>
+      <a href="#founders">Founders</a>
+      <a href="#members">Members</a>
+      <a href="#events">Events</a>
+    </nav>
+
+    <div class="footer__social">
+      <h4>Follow us</h4>
+      <div class="socials">
+        <a href="https://www.instagram.com/physiogatesa/" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor"/></svg>
+        </a>
+        <a href="https://x.com/PhysioGatesa" target="_blank" rel="noopener" aria-label="X">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 3h3l-6.6 7.6L22 21h-6.2l-4.3-5.6L6.4 21H3.4l7-8.1L2 3h6.3l3.9 5.2zm-1.1 16h1.7L7.7 4.8H5.9z"/></svg>
+        </a>
+        <a href="https://www.tiktok.com/@physiogatesa" target="_blank" rel="noopener" aria-label="TikTok">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16.6 5.82A4.28 4.28 0 0 1 15.54 3h-3.09v12.4a2.59 2.59 0 0 1-2.59 2.5 2.59 2.59 0 0 1 0-5.18c.27 0 .52.04.77.12v-3.2a5.74 5.74 0 0 0-.77-.05A5.73 5.73 0 0 0 4.13 15.3 5.73 5.73 0 0 0 9.86 21a5.73 5.73 0 0 0 5.73-5.7V9.01a7.35 7.35 0 0 0 4.29 1.38V7.3a4.3 4.3 0 0 1-3.28-1.48z"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer__bottom">
+    <span>© <span id="year"></span> Physio Gate — All rights reserved.</span>
+  </div>
+</footer>
+
+<script src="../js/main.js"></script>
+</body>
+</html>

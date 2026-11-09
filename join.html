@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>انضم إلى Physio Gate | طلب العضوية</title>
+<meta name="description" content="قدّم طلب الانضمام إلى مجتمع Physio Gate للعلاج الطبيعي — مساحة تجمع الطلاب والأخصائيين والأكاديميين والباحثين تحت مظلة واحدة.">
+<link rel="canonical" href="https://i9oly7.github.io/physiogate/join.html">
+<link rel="alternate" hreflang="ar" href="https://i9oly7.github.io/physiogate/join.html">
+<link rel="alternate" hreflang="en" href="https://i9oly7.github.io/physiogate/en/join.html">
+
+<meta property="og:title" content="انضم إلى Physio Gate">
+<meta property="og:description" content="كن جزءًا من مجتمع العلاج الطبيعي.">
+<meta property="og:image" content="assets/og-cover.png">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" type="image/webp" href="assets/logo.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="page-sub">
+
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<!-- ============ الهيدر ============ -->
+<header class="nav is-stuck" id="nav">
+  <div class="nav__wrap">
+    <a href="index.html" class="nav__brand">
+      <span class="logo logo--nav" role="img" aria-label="Physio Gate"></span>
+      <span>Physio<strong>Gate</strong></span>
+    </a>
+
+    <nav class="nav__links" id="navLinks">
+      <a href="index.html#about">عن المجتمع</a>
+      <a href="index.html#founders">المؤسسون</a>
+      <a href="index.html#opportunities">الفرص</a>
+      <a href="index.html#members">الأعضاء</a>
+      <a href="index.html#events">الفعاليات</a>
+      <a href="index.html#partners">الشركاء</a>
+      <a href="en/join.html" class="nav__lang" hreflang="en">EN</a>
+    </nav>
+
+    <button class="nav__burger" id="navBurger" aria-label="القائمة">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+<!-- ============ ترويسة الصفحة ============ -->
+<section class="sub-hero">
+  <div class="hero__glow hero__glow--a"></div>
+  <div class="hero__glow hero__glow--b"></div>
+
+  <div class="container sub-hero__content">
+    <span class="eyebrow">طلب العضوية</span>
+    <h1 class="sub-hero__title">مكانك هنا.</h1>
+    <p class="sub-hero__sub">
+      عبّئ البيانات التالية وراح نتواصل معك خلال أيام.
+      العضوية مجانية ومفتوحة لكل المهتمين بمجال العلاج الطبيعي والتأهيل.
+    </p>
+  </div>
+</section>
+
+<!-- ============ النموذج ============ -->
+<section class="section section--form">
+  <div class="container form-wrap">
+
+    <!-- ===== مزايا العضوية ===== -->
+    <aside class="form-aside">
+      <h2>وش تستفيد؟</h2>
+      <ul class="perks">
+        <li><span>01</span><div><b>شبكة مهنية</b><p>تتعرف على طلاب وأخصائيين وأكاديميين من كل المناطق.</p></div></li>
+        <li><span>02</span><div><b>ورش وتدريب</b><p>أولوية في الورش التدريبية والتدريب الميداني.</p></div></li>
+        <li><span>03</span><div><b>فعاليات</b><p>دعوات للفعاليات والزيارات الميدانية.</p></div></li>
+        <li><span>04</span><div><b>محتوى علمي</b><p>وصول لمحتوى ومصادر يصنعها المجتمع.</p></div></li>
+        <li><span>05</span><div><b>فرص تطوع</b><p>المشاركة في المبادرات التطوعية وبناء خبرة حقيقية.</p></div></li>
+      </ul>
+    </aside>
+
+    <!-- ===== الاستمارة ===== -->
+    <div class="form-card">
+
+      <form id="joinForm" class="jform" novalidate>
+
+        <!-- الاسم الثلاثي -->
+        <div class="field">
+          <label for="fullname">الاسم الثلاثي <i>*</i></label>
+          <input type="text" id="fullname" name="الاسم الثلاثي" required
+                 autocomplete="name" placeholder="مثال: محمد عبدالله الزهراني">
+          <small class="err" data-err></small>
+        </div>
+
+        <div class="field-row">
+          <!-- البريد -->
+          <div class="field">
+            <label for="email">البريد الإلكتروني <i>*</i></label>
+            <input type="email" id="email" name="البريد الإلكتروني" required
+                   autocomplete="email" placeholder="name@example.com" dir="ltr">
+            <small class="err" data-err></small>
+          </div>
+
+          <!-- الجوال -->
+          <div class="field">
+            <label for="phone">رقم الجوال <i>*</i></label>
+            <input type="tel" id="phone" name="رقم الجوال" required
+                   autocomplete="tel" placeholder="05XXXXXXXX" dir="ltr"
+                   inputmode="numeric" maxlength="10">
+            <small class="err" data-err></small>
+          </div>
+        </div>
+
+        <!-- الصفة -->
+        <div class="field">
+          <label for="role">الصفة <i>*</i></label>
+          <select id="role" name="الصفة" required>
+            <option value="" disabled selected>اختر صفتك</option>
+            <option value="طالب/ة علاج طبيعي"        data-kind="student">طالب/ة علاج طبيعي</option>
+            <option value="طالب/ة في المجال الصحي"   data-kind="student-other">طالب/ة في المجال الصحي (تخصص آخر)</option>
+            <option value="أخصائي/ة علاج طبيعي">أخصائي/ة علاج طبيعي</option>
+            <option value="استشاري/ة علاج طبيعي">استشاري/ة علاج طبيعي</option>
+            <option value="عضو هيئة تدريس / أكاديمي">عضو هيئة تدريس / أكاديمي</option>
+            <option value="باحث/ة">باحث/ة</option>
+            <option value="ممارس صحي مهتم بالتأهيل"  data-kind="non-pt">ممارس صحي مهتم بالتأهيل</option>
+          </select>
+          <small class="err" data-err></small>
+        </div>
+
+        <!-- التخصص — يظهر لمن تخصصه غير العلاج الطبيعي -->
+        <div class="field" id="majorField" hidden>
+          <label for="major">وش تخصصك؟ <small>(اختياري)</small></label>
+          <input type="text" id="major" name="التخصص"
+                 placeholder="مثال: تمريض، تنفسي، أشعة، صيدلة...">
+          <small class="err" data-err></small>
+        </div>
+
+        <!-- المستوى الدراسي — يظهر للطلاب فقط -->
+        <div class="field" id="levelField" hidden>
+          <label for="level">المستوى الدراسي <i>*</i></label>
+          <select id="level" name="المستوى الدراسي">
+            <option value="" disabled selected>اختر المستوى</option>
+            <option value="السنة الأولى">السنة الأولى</option>
+            <option value="السنة الثانية">السنة الثانية</option>
+            <option value="السنة الثالثة">السنة الثالثة</option>
+            <option value="السنة الرابعة">السنة الرابعة</option>
+            <option value="سنة الامتياز">سنة الامتياز</option>
+          </select>
+          <small class="err" data-err></small>
+        </div>
+
+        <div class="field-row">
+          <!-- الجهة -->
+          <div class="field">
+            <label for="org">الجامعة / جهة العمل <i>*</i></label>
+            <input type="text" id="org" name="الجهة" required
+                   placeholder="مثال: جامعة الملك عبدالعزيز">
+            <small class="err" data-err></small>
+          </div>
+
+          <!-- المدينة -->
+          <div class="field">
+            <label for="city">المدينة <i>*</i></label>
+            <input type="text" id="city" name="المدينة" required placeholder="مثال: جدة">
+            <small class="err" data-err></small>
+          </div>
+        </div>
+
+        <!-- سبب الانضمام -->
+        <div class="field">
+          <label for="why">ليش تبي تنضم؟ <small>(اختياري)</small></label>
+          <textarea id="why" name="سبب الانضمام" rows="4"
+                    placeholder="اكتب باختصار وش تتطلع له من المجتمع..."></textarea>
+        </div>
+
+        <!-- الموافقة -->
+        <label class="consent">
+          <input type="checkbox" id="consent" name="الموافقة" required value="موافق">
+          <span>أوافق على استخدام بياناتي لأغراض التواصل والعضوية داخل مجتمع Physio Gate.</span>
+        </label>
+        <small class="err" data-err id="consentErr"></small>
+
+        <button type="submit" class="btn btn--primary btn--full" id="submitBtn">
+          <span class="btn__label">إرسال الطلب</span>
+          <span class="btn__spin" aria-hidden="true"></span>
+        </button>
+
+        <p class="form-note">
+          بياناتك تُستخدم للتواصل بخصوص العضوية فقط، ولا تُشارك مع أي جهة خارجية.
+        </p>
+      </form>
+
+      <!-- ===== رسالة النجاح ===== -->
+      <div class="form-done" id="formDone" hidden>
+        <div class="form-done__icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"
+               stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5l5.5 5.5L20 7"/></svg>
+        </div>
+        <h2>وصلنا طلبك ✅</h2>
+        <p>شكرًا لك. فريق Physio Gate بيتواصل معك على بريدك خلال أيام.</p>
+        <a href="index.html" class="btn btn--ghost">العودة للصفحة الرئيسية</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ الفوتر ============ -->
+<footer class="footer">
+  <div class="container footer__wrap">
+    <div class="footer__brand">
+      <span class="logo logo--foot" role="img" aria-label="Physio Gate"></span>
+      <p>مجتمع يجمع المعرفة والتجربة والأثر في العلاج الطبيعي.</p>
+    </div>
+
+    <nav class="footer__nav">
+      <h4>روابط</h4>
+      <a href="index.html#about">عن المجتمع</a>
+      <a href="index.html#founders">المؤسسون</a>
+      <a href="index.html#members">الأعضاء</a>
+      <a href="index.html#events">الفعاليات</a>
+    </nav>
+
+    <div class="footer__social">
+      <h4>تابعنا</h4>
+      <div class="socials">
+        <a href="https://www.instagram.com/physiogatesa/" target="_blank" rel="noopener" aria-label="إنستغرام">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor"/></svg>
+        </a>
+        <a href="https://x.com/PhysioGatesa" target="_blank" rel="noopener" aria-label="إكس">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 3h3l-6.6 7.6L22 21h-6.2l-4.3-5.6L6.4 21H3.4l7-8.1L2 3h6.3l3.9 5.2zm-1.1 16h1.7L7.7 4.8H5.9z"/></svg>
+        </a>
+        <a href="https://www.tiktok.com/@physiogatesa" target="_blank" rel="noopener" aria-label="تيك توك">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16.6 5.82A4.28 4.28 0 0 1 15.54 3h-3.09v12.4a2.59 2.59 0 0 1-2.59 2.5 2.59 2.59 0 0 1 0-5.18c.27 0 .52.04.77.12v-3.2a5.74 5.74 0 0 0-.77-.05A5.73 5.73 0 0 0 4.13 15.3 5.73 5.73 0 0 0 9.86 21a5.73 5.73 0 0 0 5.73-5.7V9.01a7.35 7.35 0 0 0 4.29 1.38V7.3a4.3 4.3 0 0 1-3.28-1.48z"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer__bottom">
+    <span>© <span id="year"></span> Physio Gate — جميع الحقوق محفوظة.</span>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script src="js/form.js"></script>
+</body>
+</html>
